@@ -1,0 +1,13 @@
+image: katalonstudio/katalon
+services:
+ - docker:dind
+
+stages:
+ - test
+
+run_katalon_test_suite:
+      stage: test
+      tags:
+        - docker
+      script:
+        - katalonc -noSplash -runMode=console -projectPath="." -retry=0 -testSuitePath="Test Suites/TestSuiteCI" -executionProfile="default" -browserType="Chrome (headless)" -apiKey="92dff23b-74ff-4da8-81bd-5eeb9a23d341"

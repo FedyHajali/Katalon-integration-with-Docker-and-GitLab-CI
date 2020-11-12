@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to see if GitLab CI works correctly</description>
+   <name>Test CI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da4a09bf-670b-482c-b8bb-fd4986ecfbab</testCaseGuid>
+</TestCaseEntity>
