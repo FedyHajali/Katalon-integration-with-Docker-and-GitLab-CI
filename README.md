@@ -97,6 +97,10 @@ Then:
 6. If you entered docker as your executor, you’ll be asked for the default image to be used for projects that do not define one in .gitlab-ci.yml.
 In our case the default image is ```katalonstudio/katalon``` 
 
+![CI](imgs/command.png)
+
+![CI](imgs/Runner.png)
+
 For more info: https://docs.gitlab.com/runner/install/docker.html
 
 ## Add a configuration file to you repository (.gitlab-ci.yml)
@@ -121,3 +125,9 @@ run_katalon_test_suite:
 ## Make changes and test
 
 After saving some changes, push them to your git repository. After that, open the repository > CI/CD > Pipelines
+
+![CI](imgs/CI.png)
+
+You can see one of the following marks in your pipeline:
+
+![CI](imgs/pipeline.png)
