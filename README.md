@@ -103,7 +103,7 @@ In our case the default image is ```katalonstudio/katalon```
 
 For more info: https://docs.gitlab.com/runner/install/docker.html
 
-## Add a configuration file to you repository (.gitlab-ci.yml)
+## Add a configuration file to your repository (.gitlab-ci.yml)
 ```
 image: katalonstudio/katalon
 services:
