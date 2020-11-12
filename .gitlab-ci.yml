@@ -10,4 +10,4 @@ run_katalon_test_suite:
       tags:
         - docker
       script:
-        - katalonc -noSplash -runMode=console -projectPath="." -retry=0 -testSuitePath="Test Suites/TestSuiteCI" -executionProfile="default" -browserType="Chrome (headless)" -apiKey="92dff23b-74ff-4da8-81bd-5eeb9a23d341"
+        - katalonc -noSplash -runMode=console -projectPath="." -retry=0 -testSuitePath="Test Suites/TestSuiteCI" -executionProfile="default" -browserType="Chrome (headless)" -apiKey="<Your API_KEY>"
